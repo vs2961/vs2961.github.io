@@ -1,17 +1,30 @@
 import React from 'react';
 import "./App.css";
 
-function App() {
-  return (
-    <>
-      <div className="fade-in">
-        <img className="image" src="autumn.jpg"/>
-      </div>
-      <div className="centered">
-        <h1>Centered</h1>
-      </div>
-    </>
-  );
-}
+export default class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {imageLoaded: false}
+    }
+    
+    handleImageLoad() {
+        this.setState({imageLoaded: true})
+    }
 
-export default App;
+    render() {
+        return (
+            <>
+                <div className="fade-in">
+                    <img 
+                        className="image" 
+                        src="autumn.jpg"
+                        onLoad={this.handleImageLoad.bind(this)}
+                    />
+                </div>
+                <div className="centered">
+                    <h1>Centered</h1>
+                </div>
+            </>
+        );
+     }
+}
