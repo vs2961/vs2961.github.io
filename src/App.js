@@ -4,8 +4,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="fade-in" style={{"height": "100vh", "overflow": "hidden"}}>
-      <img className="image" src="autumn.jpg"/>
+      <div className="fade-in">
+        <img className="image" src="autumn.jpg"/>
+      </div>
+      <div className="centered">
+        <h1>Centered</h1>
       </div>
     </>
   );

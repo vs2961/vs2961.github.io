@@ -30,13 +30,20 @@
 }
 
 .image {
-    padding: 0;
-    display: grid;
-    margin: auto;
-    max-width: to;
+    opacity:0.75;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .fade-in {
+    height: 100vh;
+    overflow: hidden;
+    width:100%;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
