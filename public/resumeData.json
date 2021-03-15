@@ -1,8 +1,8 @@
 {
   "main": {
-    "name":"Tim Baker",
+    "name":"Victor",
     "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I'm a software engineer that does some coding here and there. Contact me for more information!",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -15,59 +15,35 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://vs2961.github.io/resume/Resume%20-%20Victor%20Siu.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/victorsiuwastaken/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/vs2961",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Here is a comprehensive list of skills I currently have.",
+    "langmessage":"Here is a comprehensive list of languages I currently know.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Michigan",
+        "degree":"Computer Science",
+        "graduated":"September 2020 - June 2024",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Stuyvesant High School",
+        "degree":"N/A",
+        "graduated":"September 2016 - June 2020",
+        "description":""
       }
     ],
     "work":[
@@ -84,18 +60,40 @@
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
-    "skills":[
+    "languages":[
       {
-        "name":"Git",
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"C",
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Ruby",
+        "level":"50%"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"80%"
+      },
+      {
+        "name":"Flask",
+        "level":"70%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"80%"
       },
       {
         "name":"CSS",
@@ -106,20 +104,33 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"REST APIs",
+        "level":"90%"
       },
       {
-        "name":"MongoDB",
+        "name":"Ubuntu/Linux Terminal",
         "level":"80%"
+      },
+      {
+        "name":"Django",
+        "level":"30%"
+      },
+      {
+        "name":"Ruby on Rails",
+        "level":"40%"
+      },
+      {
+        "name":"Tensorflow",
+        "level":"50%"
       }
+
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"EzCar",
+        "category":"A comprehensive car comparing service for simple-minded users (takes a while to load)",
         "image":"canadian-wanderlust.jpg",
         "url":"https://www.canadianwanderlust.com"
       },

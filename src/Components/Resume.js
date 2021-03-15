@@ -5,6 +5,7 @@ class Resume extends Component {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
+      var langmessage = this.props.data.langmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -19,6 +20,10 @@ class Resume extends Component {
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      })
+      var languages = this.props.data.languages.map(function(languages){
+        var className = 'bar-expand '+languages.name.toLowerCase();
+        return <li key={languages.name}><span style={{width:languages.level}}className={className}></span><em>{languages.name}</em></li>
       })
     }
 
@@ -40,7 +45,7 @@ class Resume extends Component {
       </div>
 
 
-      <div className="row work">
+        {/*<div className="row work">
 
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
@@ -49,10 +54,7 @@ class Resume extends Component {
          <div className="nine columns main-col">
           {work}
         </div>
-    </div>
-
-
-
+    </div>*/}
       <div className="row skill">
 
          <div className="three columns header-col">
@@ -67,6 +69,24 @@ class Resume extends Component {
 				<div className="bars">
 				   <ul className="skills">
 					  {skills}
+					</ul>
+				</div>
+			</div>
+      </div>
+      <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Languages</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+
+            <p>{langmessage}
+            </p>
+
+				<div className="bars">
+				   <ul className="skills">
+					  {languages}
 					</ul>
 				</div>
 			</div>
