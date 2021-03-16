@@ -1,0 +1,169 @@
+{
+  "main": {
+    "name":"Victor",
+    "occupation":"(Your Occupation Here)",
+    "description":"I'm a software engineer that does some coding here and there. Contact me for more information!",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "vsiu20@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.vs2961.github.io",
+    "resumedownload":"https://vs2961.github.io/resume/Resume%20-%20Victor%20Siu.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/victorsiuwastaken/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/vs2961",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here is a comprehensive list of skills I currently have.",
+    "langmessage":"Here is a comprehensive list of languages I currently know.",
+    "education":[
+      {
+        "school":"University of Michigan",
+        "degree":"Computer Science",
+        "graduated":"September 2020 - June 2024",
+        "description":""
+      },
+      {
+        "school":"Stuyvesant High School",
+        "degree":"N/A",
+        "graduated":"September 2016 - June 2020",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "languages":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"C",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Ruby",
+        "level":"50%"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"80%"
+      },
+      {
+        "name":"Flask",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"REST APIs",
+        "level":"90%"
+      },
+      {
+        "name":"Ubuntu/Linux Terminal",
+        "level":"80%"
+      },
+      {
+        "name":"Django",
+        "level":"30%"
+      },
+      {
+        "name":"Ruby on Rails",
+        "level":"40%"
+      },
+      {
+        "name":"Tensorflow",
+        "level":"50%"
+      }
+
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"EzCar",
+        "category":"A car comparing service for easy decisions (takes a while to load)",
+        "image":"ezcar.png",
+        "url":"https://github.com/vs2961/EZCar"
+      },
+      {
+        "title":"Stuyvesant Spectator",
+        "category":"A school's newspaper website",
+        "image":"stuyspec.png",
+        "url":"https://github.com/stuyspec/stuyspec.com"
+      },
+      {
+        "title":"Sort Visualizer",
+        "category":"Visualizer for most popular sorting algorithms",
+        "image":"a.gif",
+        "url":"https://github.com/vs2961/Sort_Visualizer"
+      },
+      {
+        "title":"Stuyhacks",
+        "category":"A basic css/html website for a hackathon",
+        "image":"Stuyhacks.png",
+        "url":"https://github.com/stuyhacks/stuyhacks.org"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
