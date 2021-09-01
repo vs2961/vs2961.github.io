@@ -1,19 +1,13 @@
 {
   "main": {
     "name":"Victor",
-    "occupation":"(Your Occupation Here)",
-    "description":"I'm a software engineer that does some coding here and there. Contact me for more information!",
+    "occupation":"Software Engineer",
+    "description":"I do some coding here and there, and am flexible with many different languanges!",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "vsiu20@gmail.com",
     "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
     "website": "http://www.vs2961.github.io",
     "resumedownload":"https://vs2961.github.io/resume/Resume%20-%20Victor%20Siu.pdf",
     "social":[
@@ -34,31 +28,30 @@
     "langmessage":"Here is a comprehensive list of languages I currently know.",
     "education":[
       {
-        "school":"University of Michigan",
+        "school":"University of California, San Diego",
         "degree":"Computer Science",
-        "graduated":"September 2020 - June 2024",
+        "graduated":"September 2021 - June 2025",
         "description":""
       },
       {
         "school":"Stuyvesant High School",
         "degree":"N/A",
-        "graduated":"September 2016 - June 2020",
+        "graduated":"September 2017 - June 2021",
         "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Gordian Software",
+        "title":"Software Engineering Intern",
+        "years":"June 2021 - August 2021",
+        "description":"Gordian tackles the airline industry's woes and parcels all the information a traveller might need in one, simple to use API. For my internship, I used Python to build multiple command-line interfaces that retrieved data from an airline's API, as well as identify any variation between the information provided by their API and their actual website."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
+        "company":"Google",
+        "title":"Mentee",
+        "years":"Dec 2019 - June 2020",
+        "description":"Google provided a unique opportunity for high school students to work in groups to create any project of their dreams under the guidance of a mentor. For my project, we created a web-scraping car app that gets data from popular car-dealing websites such as KBB or Edmunds, and presented that data dynamically by comparing user-selected cars with other similar cars on the market with gold, silver, and bronze medals. Check out the project, EZCar, in the Works Section!"    }
     ],
     "languages":[
       {
@@ -129,8 +122,8 @@
   "portfolio":{
     "projects": [
       {
-        "title":"EzCar",
-        "category":"A car comparing service for easy decisions (takes a while to load)",
+        "title":"EZCar",
+        "category":"A car comparing service for easy decisions.",
         "image":"ezcar.png",
         "url":"https://github.com/vs2961/EZCar"
       },
@@ -151,18 +144,6 @@
         "category":"A basic css/html website for a hackathon",
         "image":"Stuyhacks.png",
         "url":"https://github.com/stuyhacks/stuyhacks.org"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
       }
     ]
   }
