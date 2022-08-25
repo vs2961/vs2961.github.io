@@ -42,6 +42,12 @@
     ],
     "work":[
       {
+        "company":"First Republic Bank",
+        "title":"Software Engineering Intern",
+        "years":"June 2022 - August 2022",
+        "description":"At First Republic, adjusting to a corporate development environment with strict security controls was a challenge in itself. My task was to navigate this environment while automating some of the engineer's mundane tasks on Snowflake. These automation projects combined saved hours of engineering time every month, and they included automating user provisioning, baseline verification processes, and providing access information about specific roles and objects."
+      },
+      {
         "company":"Gordian Software",
         "title":"Software Engineering Intern",
         "years":"June 2021 - August 2021",
