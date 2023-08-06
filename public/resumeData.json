@@ -42,6 +42,12 @@
     ],
     "work":[
       {
+        "company":"DocuSign",
+        "title":"Platform Software Engineering Intern",
+        "years":"June 2023 - September 2023",
+        "description":"DocuSign is a large tech company with many employees, and even more users. As such, synchronizing user data accurately across sandbox environments is a difficult task that required a full team to complete. As the person spearheading the development of this project, agile planning became a must to ensure proper time to successfully create and offboard the project before my internship ended. On the bright side, working with a tech stack that includes Node.JS, AWS Lambda, Datadog, and Thycotic was an incredible learning opportunity in itself."
+      },
+      {
         "company":"First Republic Bank",
         "title":"Software Engineering Intern",
         "years":"June 2022 - August 2022",
@@ -51,7 +57,7 @@
         "company":"Gordian Software",
         "title":"Software Engineering Intern",
         "years":"June 2021 - August 2021",
-        "description":"Gordian tackles the airline industry's woes and parcels all the information a traveller might need in one, simple to use API. For my internship, I used Python to build multiple command-line interfaces that retrieved data from an airline's API, as well as identify any variation between the information provided by their API and their actual website."
+        "description":"Gordian tackles the airline industry's woes and parcels all the information a traveller might need in one, simple to use API. As a startup, things moved fast and solving problems at this breakneck speed was a unique challenge. For my internship, I used Python to build multiple command-line interfaces that retrieved data from an airline's API, as well as identify any variation between the information provided by their API and their actual website."
       },
       {
         "company":"Google",
