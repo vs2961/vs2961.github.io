@@ -45,7 +45,7 @@
         "company":"DocuSign",
         "title":"Platform Software Engineering Intern",
         "years":"June 2023 - September 2023",
-        "description":"DocuSign is a large tech company with many employees, and even more users. As such, synchronizing user data accurately across sandbox environments is a difficult task that required a full team to complete. As the person spearheading the development of this project, agile planning became a must to ensure proper time to successfully create and offboard the project before my internship ended. On the bright side, working with a tech stack that includes Node.JS, AWS Lambda, Datadog, and Thycotic was an incredible learning opportunity in itself."
+        "description":"DocuSign is a large tech company with many employees, and even more users. As such, synchronizing user data accurately across sandbox environments is a difficult task that required a full team to complete. As the person spearheading the development of this project, agile planning became a must to ensure proper time to successfully create and offboard the project before my internship ended. On the bright side, working with a tech stack that includes Salesforce, Node.JS, AWS Lambda, Datadog, and AWS Secrets Manager was an incredible learning opportunity in itself."
       },
       {
         "company":"First Republic Bank",
